@@ -1,4 +1,4 @@
-/*Exercício
+/*REVISAR
 1 - Crie uma classe JS para implementar um array com cinco métodos básicos: 
 inserirFinal, [inserirInicio], [retirarInicio] e [retirarFinal]. Não utilize os 
 métodos push, pop, shift e unshift.*/
