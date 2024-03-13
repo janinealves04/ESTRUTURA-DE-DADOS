@@ -1,5 +1,5 @@
 ///REVISAR
-/*const vetor = [1,2,3,4];
+/* const vetor = [1,2,3,4];
 
 function inverterVetorComAuxiliar(vetor){
     let comprimento = vetor.length;

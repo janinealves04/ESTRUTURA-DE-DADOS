@@ -22,4 +22,4 @@ function maiorSequenciaSoma(vetor){
         }
     }
     return maxTotal;
-}*/
+} */
