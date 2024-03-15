@@ -15,12 +15,16 @@ class Pessoas {
       }
   }
 
-  inserirInicio(){
-    for (let pessoinha of this.Vetor){
-        this.Vetor[0] = "Lucas"
+  inserirInicio(valor){
+    let NovasPessoas = [];
+    NovasPessoas[NovasPessoas.length] = valor ;
+    for (let i = 1; i< Vetor.length; i++){
+      NovasPessoas[NovasPessoas.length] = Vetor[i]
     }
-}
-}
+     this.Vetor  = NovasPessoas;
+    }
+    
+ }
 
 
 
@@ -33,6 +37,3 @@ pessoas.inserirFinal();
 console.log(pessoas.Vetor);
 
 //Inserindo um novo valor ao inicio do vetor:
-pessoas.inserirInicio();
-console.log(pessoas.Vetor);
-
