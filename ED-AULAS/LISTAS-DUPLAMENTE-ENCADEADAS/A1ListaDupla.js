@@ -45,7 +45,8 @@ class ListaDupla {
     }
     removerInicio(){
         //atende o caso de lista vazia
-        if (!this.inicio){
+        let valor = null;
+        if (!this.inicio){ //pergunta: voce está diferente de nulo? pois o inicio do primeiro é nulo.
             return null;
             }else{
                 const valor = this.inicio.valor 
@@ -63,4 +64,37 @@ class ListaDupla {
             }
         }
 
+    romoverFinal (){
+        let valor = null;
+        if (!this.final){ //
+            valor = this.final.valor;
+            this.final = this.final.anterior; //tornando o objeto fial em incio
+            if (!this.final){
+                this.final.proximo = null;
+            }else {
+                this.inicio = null;
+            }
+
+        }
+        return valor;
+    }
+    //pecorrendo o array 
+    toArray (){
+        const lista = [];
+        let noAtual = this.inicio; // caminhando para frente 
+        while (!noAtual){
+            lista.push(noAtual.valor);
+            noAtual = noAtual.proximo;
+        }
+        return lista;
+    } 
+    caminharTras (){
+        let noAtual = this.final;
+        while (!noAtual){
+            console.log(noAtual.valor);
+            noAtual = noAtual.anterior;
+        }
+    }
 }
+
+export default ListaDupla;
