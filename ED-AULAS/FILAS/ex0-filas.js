@@ -4,4 +4,13 @@
 2. Crie uma simulação de fila de banco onde clientes são atendidos na ordem em que chegam.
 3. Desenvolva uma função que imprima os elementos de uma fila em ordem, sem alterar a fila original.
 
+1. Criar fila com array;
+
+2. fila com objetos 
+
+3. fila com deque
+
+
+
+
 */
