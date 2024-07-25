@@ -1,0 +1,1 @@
+/* 16. Escreva uma função que encontre o elemento mais frequente em um array. */
