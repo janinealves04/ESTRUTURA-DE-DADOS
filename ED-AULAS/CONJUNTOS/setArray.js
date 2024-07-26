@@ -28,8 +28,13 @@ class SetArray {
 
     }
 
-    
+    remove(){
 
+    }
+    
+    tolist(){
+        
+    }
     
 }
 
