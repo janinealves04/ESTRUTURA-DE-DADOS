@@ -12,8 +12,27 @@ class FilaBancoPrioridade {
      this.fila = [];
     }
 
-    add (nome, prioridade) {
-        if (this.filaPrioridade.length > 0){
+    add (nome, prioridade = false) {
+        if (prioridade === true){
+            this.filaPrioridade.push(nome);
+            console.log(`Cliente ${nome} adicionado à fila prioritária`);
+            console.log('Fila prioritária:',this.filaPrioridade);
+        }else {
+            this.fila.push(nome);
+            console.log(`Cliente ${nome} adicionado à fila`);
+            console.log('Fila comum:',this.fila);
+        }
+    }
+
+   
+}
+
+
+const filaDeBanco = new FilaBancoPrioridade();
+
+
+filaDeBanco.add('João', true);
+       /*  if (let prioridade.length > 0){
             nome.push(this.prioridade)
             prioridade.push(this.clienteAtendido);
             console.log("Cliente ${nome} atendido")
@@ -23,17 +42,6 @@ class FilaBancoPrioridade {
             }
         }
         //com diferntees niveis d prioridade 
-    }
+    } */
 
 
-
-
-
-
-
-
-
-
-
-
-}
