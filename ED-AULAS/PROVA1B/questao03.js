@@ -1,7 +1,7 @@
 /* Compare os conceitos de Filas, Pilhas e Listas Encadeadas apresentados nos
 diferentes livros. Identifique semelhanças e diferenças na abordagem dos autores. */
 
-/* Os livros escolhidos foram “Entendendo algoritmos” de Aditya Y. Bhargava e “Estrutura de dados”
+/* Respostas: Os livros escolhidos foram “Entendendo algoritmos” de Aditya Y. Bhargava e “Estrutura de dados”
  de Nina Edelweiss e Renata Galante. Ambos os livros abordam e explicam muito bem os principais conceitos 
  de filas, pilhas e listas encadeadas. A principal semelhança entre elas está na forma como abordam o assunto, 
  os autores tentam ser bem didáticos com o uso de figuras ilustrativas exemplificando com acontecimentos do cotidiano. 
