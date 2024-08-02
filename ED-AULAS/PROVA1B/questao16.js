@@ -1,27 +1,43 @@
 /* 16. Escreva uma função que encontre o elemento mais frequente em um array. */
 
-
-class Array {
-    constructor (){
-        this.array = [];
+class EncontrarElementoMaisFrequente {
+    constructor() {
+        this.contagem = {};
     }
 
-    VerificarRepetidos (){
-        if (this.items.leght > 0){
-            let elementoA = this.item
-            if ( elementoA === elementoB );
+    contarElemento(array) { 
+        this.contagem = {}; 
+        for (const elemento of array) {
+            if (this.contagem[elemento]) {
+                this.contagem[elemento]++;
+            } else {
+                this.contagem[elemento] = 1;
+            }
         }
+    }
+
+    maisFrequente() {
+        let elementoMaisFrequente = null;
+        let frequenciaMaxima = 0;
+
+        for (const [elemento, frequencia] of Object.entries(this.contagem)) {
+            if (frequencia > frequenciaMaxima) {
+                frequenciaMaxima = frequencia;
+                elementoMaisFrequente = elemento;
+            }
+        }
+        return elementoMaisFrequente;
     }
 }
 
-/* Array = 3,3,3,4,5
+const array1 = [5, 5, 3, 3, 3, 2, 2];
+const array2 = [10, 10, 20, 20, 30, 30, 30, 30];
+const instancia1 = new EncontrarElementoMaisFrequente();
+const instancia2 = new EncontrarElementoMaisFrequente();
 
->pecorra o array
->verifique se está vazio
->se não estiver prossiga 
->registre os elementos iguais 
->prossiga 
->se o elementoA for igual ao elemento b
->retorne eles no console
+instancia1.contarElemento(array1);
+console.log(instancia1.maisFrequente()); 
 
-como fazer com um array variavel ? */
+instancia2.contarElemento(array2);
+console.log(instancia2.maisFrequente()); 
+
