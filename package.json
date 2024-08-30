@@ -1,13 +1,15 @@
 {
-  "name": "estrutura-de-dados",
+  "name": "ed-aulas",
   "version": "1.0.0",
-  "description": "Este repositório é dedicado à matéria ```Estrutura de dados``` ofertada no primeiro período de 2024, utilizando a linguagem ```JavaScript```. A seguir, você irá encontrar exercícios propostos como fixação do conteúdo, como também um arquivo Markdown de apoio sobre os conceitos propostos em cada atividade com base na bibliografia sugerida, nas aulas lecionadas durante o semestre e materias do próprio professor.\r #\r ## 🎲 **Estrutura de dados** \r ### Do que se trata a estrutura de dados?\r A estrutura de dados são formas criadas para armazenar e gerenciar dados que colaboram para um sistema eficiente. Confira a seguir os conteúdos abordados nessa matéria:",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
