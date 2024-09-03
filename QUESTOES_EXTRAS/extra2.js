@@ -1,0 +1,2 @@
+/* Escreva uma função em JavaScript que utilize uma pilha para determinar se uma string contendo apenas '(', ')', '{', '}', '[' e ']' 
+é válida. A string é válida se todos os tipos de parênteses são fechados na ordem correta. */
