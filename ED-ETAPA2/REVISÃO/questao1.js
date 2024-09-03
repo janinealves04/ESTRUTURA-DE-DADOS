@@ -1,5 +1,5 @@
-//Implemente um método reverse() na classe Pilha que inverta a ordem dos elementos na
-//pilha sem usar uma estrutura de dados adicional.
+/*Implemente um método reverse() na classe Pilha que inverta a ordem dos elementos na
+pilha sem usar uma estrutura de dados adicional.*/
 
 
 class StackReverse {
