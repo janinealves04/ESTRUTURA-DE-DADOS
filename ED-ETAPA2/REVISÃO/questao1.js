@@ -2,21 +2,21 @@
 pilha sem usar uma estrutura de dados adicional.*/
 
 
-class StackReverse {
+class Stack {
     constructor(){
         this.items = [];
     }
 
         push(element){
-            this._items.push(element);
+            this.items.push(element);
         }
     
         pop(){
-            return this._items.pop();
+            return this.items.pop();
         }
  
         peek(){
-            return this._items.at(-1);
+            return this.items.at(-1);
         }
     
 
@@ -25,20 +25,19 @@ class StackReverse {
         }    
     
         size(){
-            return this._items.length;
+            return this.items.length;
         }
-    
-        reverse(){
-            if ()
-        }
-    }
-    
-   
+        
+        inverterPilha(){
+            if (this.items > 0){
+                if(this.items.length    )
+            }
 
-//Verificar se está vazia
-//usar pilha auxiliar para guardar as informações 
-//last in fist out : o primeiro a entrar é o primeiro a sair. O primeiro a ser removido
-//percorrer o valor do vetor 
+        }
+        
+}
+    
+ 
 
 const Stack = new StackReverse();
 Stack.insert(30);
@@ -46,11 +45,5 @@ Stack.insert(20);
 Stack.insert(40);
 Stack.insert(5);
 Stack.insert(2);
-Stack.insert(8);
-Stack.insert(25);
-Stack.insert(32);
-Stack.insert(45);
-Stack.insert(42);
-
 
 export default Stack;
