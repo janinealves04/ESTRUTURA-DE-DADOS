@@ -2,7 +2,7 @@
 pilha sem usar uma estrutura de dados adicional.*/
 
 
-class Stack {
+class Pilha {
     constructor(){
         this.items = [];
     }
@@ -28,22 +28,32 @@ class Stack {
             return this.items.length;
         }
         
-        inverterPilha(){
-            if (this.items > 0){
-                if(this.items.length    )
+        reverseStack(){
+            if (!this.isEmpty()){
+                let inicio = this.pop;
+                this,reverse();
+                this.inserirFinal(inicio);
+               
             }
 
+        }
+
+        inserirFinal(item){
+            if(let inicio = this.pop){
+                this.inserirFinal(item);
+                this.push(inicio);
+            }
         }
         
 }
     
  
 
-const Stack = new StackReverse();
-Stack.insert(30);
-Stack.insert(20);
-Stack.insert(40);
-Stack.insert(5);
-Stack.insert(2);
+const Pilha = new Stack();
+Pilha.push(30);
+Pilha.push(20);
+Pilha.push(40);
+Pilha.push(5);
+Pilha.push(2);
 
-export default Stack;
+export default Pilha;
