@@ -20,6 +20,4 @@ A estrutura de dados são formas criadas para armazenar e gerenciar dados que co
 
 ## 📚 **Blibliografia base:** 
 
-1. [Estruturas de Dados & Algoritmos em Java, por  Michael T. Goodrich;](https://www.amazon.com.br/Estruturas-Dados-Algoritmos-em-Java/dp/8582600186)
-2. [Estruturas de Dados: Volume 18, por Nina Edelweiss;](https://www.amazon.com.br/Estruturas-Dados-18-Nina-Edelweiss/dp/8577803813)
-3. [Estruturas de Dados e Algoritmos com JavaScript: Escreva um Código JavaScript Complexo e Eficaz Usando a Mais Recente ECMAScript, por Loiane Groner.](https://www.amazon.com.br/Estruturas-Dados-Algoritmos-Com-Javascript/dp/8575226932)
+1. [Estruturas de Dados e Algoritmos com JavaScript: Escreva um Código JavaScript Complexo e Eficaz Usando a Mais Recente ECMAScript, por Loiane Groner.](https://www.amazon.com.br/Estruturas-Dados-Algoritmos-Com-Javascript/dp/8575226932)
